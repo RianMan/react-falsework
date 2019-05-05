@@ -1,7 +1,5 @@
-import Vue from 'vue';
-import Origin from './app/Origin.vue';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-new Vue({
-    el:'#app',
-    render: h => h(Origin)
-})
+console.log(ENV)
+ReactDOM.render(<h1>Hello React</h1>,document.getElementById('app'));
