@@ -1,7 +1,7 @@
 {
-  "name": "react-falsework",
-  "version": "1.0.0",
-  "description": "react的一个简易的脚手架",
+  "name": "{{projectName}}",
+  "version": "{{projectVersion}}",
+  "description": "{{projectDescription}}",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --config  config/webpack.dev.config.js",
